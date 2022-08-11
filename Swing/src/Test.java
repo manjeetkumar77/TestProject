@@ -2,8 +2,14 @@
 public class Test {
 
     public static void main() {
+        
+        print();
+      
+    }
     
-      System.out.println("Hello Java");
+    
+    private static String  print(){
+        return "test message";
     }
   
 }
